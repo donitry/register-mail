@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegConf>
+  <TxtBox_FilePathInput>./Db/RegUser173.txt</TxtBox_FilePathInput>
+  <TxtBox_FilePathOutput>./Db/RegUser173.txt</TxtBox_FilePathOutput>
+  <TxtBox_Proxy></TxtBox_Proxy>
+  <TxtBox_RealRegUrl>http://passport.17173.com</TxtBox_RealRegUrl>
+  <TxtBox_RegUrl>http://passport.17173.com</TxtBox_RegUrl>
+  <TxtBox_ScriptPath>./VerifyJs/126mail.js</TxtBox_ScriptPath>
+  <TxtBox_VerifyCodeUrl>http://passport.17173.com</TxtBox_VerifyCodeUrl>
+</RegConf>

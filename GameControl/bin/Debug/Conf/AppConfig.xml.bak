@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appsetting>
+	<DataBase Mark="" ConnectionString="datasource=127.0.0.1;username=verify_center;password=123456;database=verifysystem;charset=utf8"/>
+	<MailInfo>
+		<Mail Mark="126.com" MUri="imaps://imap.126.com"/>
+	</MailInfo>
+	<RegContent>
+		<RegInfo Mark="RegMail_126">
+			<RegUrl>http://reg.email.163.com/unireg</RegUrl>
+			<RealRegUrl>https://ssl.mail.163.com/regall/unireg</RealRegUrl>
+			<VerifyCodeUrl>http://reg.email.163.com/unireg</VerifyCodeUrl>
+			<WebScriptPath>./VerifyJs/RegMail_126.js</WebScriptPath>
+		</RegInfo>
+		<RegInfo Mark="RegAccount_17173">
+			<RegUrl>http://passport.17173.com</RegUrl>
+			<RealRegUrl>http://passport.17173.com</RealRegUrl>
+			<VerifyCodeUrl>http://passport.17173.com</VerifyCodeUrl>
+			<WebScriptPath>./VerifyJs/RegAccount_17173.js</WebScriptPath>
+			<VerifyMail>17173通行证注册激活邮件</VerifyMail>
+		</RegInfo>
+	</RegContent>
+</appsetting>
